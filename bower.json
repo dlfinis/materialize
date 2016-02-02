@@ -15,8 +15,8 @@
     "facebook"
   ],
   "main": [
-    "dist/.*",
-    "extras/.*"
+    "dist/*",
+    "extras/*"
   ],
   "ignore": [
    "**/.*",
@@ -24,22 +24,26 @@
     "**/*.zip",
     "**/*.txt",
     "**/*.xml",
-    "bin",
-    "css",
-    "font",
-    "images",
-    "jade",
-    "js",
-    "node-modules",
-    "bower_components",
-    "res",
-    "sass",
-    "templates",
-    "test",
-    "tests",
+    "bin/",
+    "css/",
+    "font/",
+    "images/",
+    "jade/",
+    "js/",
+    "node-modules/",
+    "bower_components/",
+    "res/",
+    "sass/",
+    "templates/",
+    "test/",
+    "tests/",
     "src",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    "CNAME",
+    "css/",
+    "bower.json",
+    "README.md"
   ],
   "dependencies": {
     "jquery": ">=2.1.1"
