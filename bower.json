@@ -40,7 +40,9 @@
     "src",
     "Gruntfile.js",
     "package.json",
+    "package.js",
     "CNAME",
+    "CONTRIBUTING.md",
     "css/",
     "bower.json",
     "README.md"
