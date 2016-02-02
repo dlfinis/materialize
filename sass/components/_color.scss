@@ -7,6 +7,20 @@
 // Google Color Palette defined: http://www.google.com/design/spec/style/color.html
 
 
+$facebook:(
+  "base":       #3b5998,
+  "lighten-5":  #d8dfea,
+  "lighten-4":  #c7d5ea,
+  "lighten-3":  #afbdd4,
+  "lighten-2":  #a3b7d9,
+  "lighten-1":  #6d84b4,
+  "normal":     #3b5998,
+  "darken-1":   #3257a6,
+  "darken-2":   #304e8c,
+  "darken-3":   #203f80,
+  "darken-4":   #0e1f56,
+);
+
 $materialize-red: (
   "base":       #e51c23,
   "lighten-5":  #fdeaeb,
@@ -338,6 +352,7 @@ $shades: (
 );
 
 $colors: (
+  "facebook": $facebook,
   "materialize-red": $materialize-red,
   "red": $red,
   "pink": $pink,
