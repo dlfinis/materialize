@@ -15,17 +15,18 @@
     "facebook"
   ],
   "main": [
-    "dist/*",
-    "extras/*"
+    "dist/.*",
+    "extras/.*"
   ],
   "ignore": [
-    "*",
-    "!LICENSE",
-    "!CHANGELOG",
-    "!dist/",
-    "!dist/*",
-    "!extras/",
-    "!extras/*"
+   "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "Gruntfile.js",
+    "package.json"
   ],
   "dependencies": {
     "jquery": ">=2.1.1"
