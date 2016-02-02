@@ -1,5 +1,5 @@
 {
-  "name": "Materialize",
+  "name": "materialize-facebook",
   "description": "A modern responsive front-end framework based on Material Design",
   "keywords": [
     "css",
@@ -11,7 +11,8 @@
     "framework",
     "ux",
     "material",
-    "design"
+    "design",
+    "facebook"
   ],
   "main": [
     "bin/materialize.css",
@@ -50,6 +51,7 @@
     "js/init.js",
     "js/prism.js",
     "res/",
+    "sass"
     "sass/style.scss",
     "sass/ghpages-materialize.scss",
     "**/*.html",
